@@ -7,6 +7,349 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.project-1-body, .project-2-body,
+.project-3-body, .project-4-body,
+.project-5-bodfy {
+	font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* ToDo App Styling */
+/* Section Styling */
+#app-description {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* App Title */
+#app-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* App Platform */
+#app-platform {
+    font-size: 18px;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+/* App Summary */
+#app-summary {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Tech Keywords */
+#tech-react-native,
+#tech-aws,
+#tech-cognito {
+    color: #0073e6;
+    font-weight: bold;
+}
+
+/* Features Title */
+#features-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Features List */
+#features-list {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Individual Feature Items */
+#feature-1,
+#feature-2,
+#feature-3 {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* App Availability */
+#app-availability {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Platform Links */
+#platform-apple,
+#platform-google {
+    color: #0073e6;
+    font-weight: bold;
+}
+
+/* Job Search Website */
+/* Section Styling */
+#job-app-description {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* App Title */
+#job-app-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* App Summary */
+#job-app-summary {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Tech Keywords */
+#tech-react,
+#tech-express,
+#tech-jwt {
+    color: #0073e6;
+    font-weight: bold;
+}
+
+/* Features Title */
+#job-features-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Features List */
+#job-features-list {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Individual Feature Items */
+#job-feature-1,
+#job-feature-2,
+#job-feature-3,
+#job-feature-4,
+#job-feature-5 {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Discusion Chat App */
+/* Section Styling */
+#forum-app-description {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* App Title */
+#forum-app-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* App Summary */
+#forum-app-summary {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Tech Keywords */
+#tech-react,
+#tech-express,
+#tech-mongo {
+    color: #0073e6;
+    font-weight: bold;
+}
+
+/* Features Title */
+#forum-features-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Features List */
+#forum-features-list {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Individual Feature Items */
+#forum-feature-1,
+#forum-feature-2,
+#forum-feature-3 {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Marvel App */
+/* Section Styling */
+#marvel-app-description {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* App Title */
+#marvel-app-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* App Summary */
+#marvel-app-summary {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Features Title */
+#marvel-features-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Features List */
+#marvel-features-list {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Individual Feature Items */
+#marvel-feature-1,
+#marvel-feature-2,
+#marvel-feature-3 {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Tech Title */
+#marvel-tech-title {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Tech List */
+#marvel-tech-list {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+/* Tech List Items */
+#tech-react,
+#tech-api,
+#tech-state-management {
+    font-size: 16px;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+
+
+/* resume-experience */
+.resume-body {
+    font-family: Arial, sans-serif;
+    line-height: 1;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Section Styles */
+.resume-section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Company Heading */
+#company-1, #company-2, #company-3 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Location */
+#location-1, #location-2, #location-3 {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* Position Heading */
+#position-1, #position-2, #position-3 {
+    font-size: 20px;
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+/* Dates */
+#dates-1, #dates-2, #dates-3 {
+    color: #999;
+    margin-bottom: 15px;
+}
+
+/* Responsibilities List */
+#responsibilities-list-1, #responsibilities-list-2, #responsibilities-list-3 {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Task Styling */
+#task-1-1, #task-1-2, #task-1-3, #task-1-4, #task-1-5,
+#task-2-1, #task-2-2, #task-2-3,
+#task-3-1, #task-3-2, #task-3-3, #task-3-4 {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
 
 .bordered {
 	border: solid black 10px;
@@ -22,6 +365,10 @@
 	justify-content: center;
 	align-items: center;
 	/* padding: 2% */
+}
+
+.spaced {
+	margin: 10%
 }
 
 .appStoreButton {
@@ -2099,7 +2446,7 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 5px;
+		/* border-radius: 5px; */
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -2879,7 +3226,7 @@ input, select, textarea {
 	}
 
 		#main > section > .container {
-			padding: 6em 0 4em 0;
+			padding: 3em 0 4em 0;
 		}
 
 		#main > section:first-child {
