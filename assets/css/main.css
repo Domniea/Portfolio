@@ -3228,6 +3228,9 @@ input, select, textarea {
 		#main > section > .container {
 			padding: 3em 0 4em 0;
 		}
+		#main > section > .container-header {
+			padding: 3em 0 0em 0;
+		}
 
 		#main > section:first-child {
 			border-top: 0;
