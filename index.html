@@ -72,8 +72,9 @@
 									<ul class="feature-icons">
 										<li class="icon solid fa-bolt">React</li>
 										<li class="icon solid fa-bolt">React Native</li>								
+										<li class="icon solid fa-code">NextJs</li>
 										<li class="icon solid fa-code">Node</li>
-										<li class="icon solid fa-code">Javascript</li>
+										<li class="icon solid fa-code">Typescript</li>
 										<li class="icon solid fa-code">Firebase</li>
 										<li class="icon solid fa-code">MongoDB</li>
 										<li class="icon solid fa-users">Git / Version Control</li>
@@ -82,10 +83,9 @@
 										<li class="icon solid fa-code">REST API's</li>
 										<li class="icon solid fa-code">Mongoose</li>
 										<li class="icon solid fa-code">Postgres</li>
-										<li class="icon solid fa-code">Typescript</li>
 										<li class="icon solid fa-code">SQL</li>
-										<li class="icon solid fa-code">AWS - Amplify</li>
-										<li class="icon solid fa-code">AWS - Cognito</li>
+										<li class="icon solid fa-code">AWS</li>
+										<li class="icon solid fa-code">Jest</li>
 										<li class="icon solid fa-code">Docker</li>
 										<li class="icon solid fa-code">Ruby / Rails</li>
 										<li class="icon solid fa-coffee">Drinking too much coffee</li>
@@ -148,240 +148,203 @@
 									<h3>A Few Projects</h3>
 									<p>Here are some examples demonstrating my work.</p>
 									<div class="features">
-										<article>
-											<img class="image" src="images/Simulator Screenshot - iPhone 15 Pro Max - 2024-01-31 at 15.24.35.png" alt="" />
-											<!-- <div class="inner">
-												<h4>The Best/Forget Forgetting ToDo list - Mobile Application</h4>
-												<p>
-													An Ios/Android app built with React Native. Utilizing AWS's Amplify and Cognito services, the app has a full
-													authentication flow configured with a custom UI and components. "The Best/Forget Forgetting ToDo List" is a theme responsive user friendly utility tool to keep a list of 
-													notes/descriptions. Currently published on the Apple App Store and Google Play Store.
+									<article>
+										<img class="image" src="images/prostoreScreenshot.png" alt="Prostore ecommerce platform screenshot" />
+										<div class="project-1-body inner">
+											<section id="app-description">
+												<h2 id="app-title">Prostore – Full-Stack Ecommerce Platform</h2>
+												<p id="app-platform">A professional ecommerce web app built with <strong>Next.js 15</strong>, <strong>TypeScript</strong>, and <strong>PostgreSQL</strong></p>
+												<p id="app-summary">
+													Prostore is a production-ready ecommerce solution featuring full authentication, admin dashboard, product reviews,
+													search and filtering, real-time email receipts, and multi-provider checkout with <strong>PayPal</strong> and <strong>Stripe</strong>.
+													Built with a modern full-stack architecture including <strong>React 19</strong>, <strong>Tailwind CSS</strong>, and <strong>Prisma ORM</strong>.
 												</p>
-												<div class="centered">
-													<a class="centered" href="https://github.com/Domniea/rnToDo">
-														<button class="button">View Code</button>
-													</a>
-													<a class="centered" href="https://apps.apple.com/us/app/the-best-todo-list/id6477065703">
-															<img class="downloadButton" src="images/appleAppStore2.svg" alt="" />
-													</a>
-													<a class="centered" href="https://play.google.com/store/apps/details?id=com.thebesttodolist&pcampaignid=web_share">
-															<img class="downloadButton" src="images/googlePlayStore.svg" alt="" />
-													</a>
-												</div>
-											</div> -->
-											<div class="project-1-body inner">
-												<section id="app-description">
-													<h2 id="app-title">The Best/Forget Forgetting ToDo List</h2>
-													<p id="app-platform">A cross-platform app built with React Native</p>
-													<p id="app-summary">This iOS and Android app offers users a streamlined and responsive experience for managing to-do lists and notes. Built using <strong id="tech-react-native">React Native</strong> and leveraging <strong id="tech-aws">AWS Amplify</strong> and <strong id="tech-cognito">Cognito</strong> for secure user authentication, the app features a fully customized UI with intuitive components designed for ease of use.</p>
-													<h3 id="features-title">Key features include:</h3>
-													<ul id="features-list">
-														<li id="feature-1">Full authentication flow with seamless login and registration processes</li>
-														<li id="feature-2">A theme-responsive interface optimized for different screen sizes</li>
-														<li id="feature-3">A user-friendly utility for creating, managing, and organizing tasks and notes</li>
-													</ul>
-													<p id="app-availability">Available now on both the <strong id="platform-apple">Apple App Store</strong> and <strong id="platform-google">Google Play Store</strong>.</p>
-												</section>
-												<div class="centered">
-													<a class="centered" href="https://github.com/Domniea/rnToDo">
-														<button class="button">View Code</button>
-													</a>
-													<a class="centered" href="https://apps.apple.com/us/app/the-best-todo-list/id6477065703">
-															<img class="downloadButton" src="images/appleAppStore2.svg" alt="" />
-													</a>
-													<a class="centered" href="https://play.google.com/store/apps/details?id=com.thebesttodolist&pcampaignid=web_share">
-															<img class="downloadButton" src="images/googlePlayStore.svg" alt="" />
-													</a>
-												</div>
-											</div>
-										</article>
-										<article>
-											<img class="image" src="images/dominos/Screen-full order.png" alt="" />
-											<!-- <div class="inner">
-												<h4>The Best/Forget Forgetting ToDo list - Mobile Application</h4>
-												<p>
-													An Ios/Android app built with React Native. Utilizing AWS's Amplify and Cognito services, the app has a full
-													authentication flow configured with a custom UI and components. "The Best/Forget Forgetting ToDo List" is a theme responsive user friendly utility tool to keep a list of 
-													notes/descriptions. Currently published on the Apple App Store and Google Play Store.
+												<h3 id="features-title">Key features include:</h3>
+												<ul id="features-list" style="font-size: 1rem; font-weight: 400; color: #d1d5db; list-style: disc inside;">
+													<li id="job-feature-1">Multi-provider checkout with <strong>Stripe</strong>, <strong>PayPal</strong>, and Cash On Delivery</li>
+													<li id="job-feature-2">Admin dashboard with product, order, and user management</li>
+													<li id="job-feature-3">Authentication and form validation using <strong>Next Auth</strong>, <strong>JWT</strong>, <strong>Zod</strong>, and <strong>React Hook Form</strong></li>
+													<li id="job-feature-4">Image uploads, product reviews, filters, and email receipts via <strong>Resend</strong></li>
+												</ul>
+												<p id="app-availability">Deployed with <strong>Vercel</strong> and built for scalability and responsiveness across devices.</p>
+												<p id="app-summary">
+													For Admin access to metrics and Admin dashboard use email: "admin@test.com" and password: "password"
 												</p>
-												<div class="centered">
-													<a class="centered" href="https://github.com/Domniea/rnToDo">
-														<button class="button">View Code</button>
-													</a>
-													<a class="centered" href="https://apps.apple.com/us/app/the-best-todo-list/id6477065703">
-															<img class="downloadButton" src="images/appleAppStore2.svg" alt="" />
-													</a>
-													<a class="centered" href="https://play.google.com/store/apps/details?id=com.thebesttodolist&pcampaignid=web_share">
-															<img class="downloadButton" src="images/googlePlayStore.svg" alt="" />
-													</a>
-												</div>
-											</div> -->
-											<div class="project-1-body inner">
-												<section id="app-description">
-													<h2 id="app-title">DomiNode Pizza CLI Tool</h2>
-													<p id="app-platform">A Node based CLI tool have a pizza delivered to the comfort of your Home (wherever  you are)</p>
-													<p id="app-summary">Craving pizza but don’t want the hassle of using the Domino’s app or website? Look no further! 
-														I’ve created a program that lets you order a pizza directly from your command line. Built with Node, Commander, 
-														and Inquirer, this interactive tool makes it easy to get exactly what you want, 
-														whenever you want, delivered right to your door (or wherever you are). Enjoy!</p>
-													<h3 id="features-title">Key features include:</h3>
-													<ul id="features-list">
-														<li id="feature-1">
-															Node.js driven command line interface tool that allows users to order 
-															a pizza directly without use of the Domino’s website or mobile app.
-														</li>
-														<li id="feature-2">
-															Deconstructed Domino’s REST API’s and to allow users to order a pie directly from their CLI.
-														</li>
-														<li id="feature-3">
-															Node libraries “Commander” and “Inquirer” walk the user through prompts to customize their purchase before submitting payment.
-														</li>
-													</ul>
-												</section>
-												<div class="centered">
-													<a class="centered" href="https://github.com/Domniea/dominosCliOrderingTool">
-														<button class="button">View Code / Pull To Use</button>
-													</a>
-												</div>
+												<p id="app-summary">
+													To "Purchase" items and test out payment processing email recipts with <Strong>Paypal</Strong> and/or <String>Stripe</String>, 
+													use Stripe "test" card or any Paypal checkout option.
+												</p>
+											</section>
+											<section>
+												
+											</section>
+											<div class="centered">
+												<a class="centered spaced" href="https://github.com/domniea/prostore" target="_blank" rel="noopener">
+													<button class="button">View Code</button>
+												</a>
+												<a class="centered spaced" href="https://pro-store-pearl.vercel.app/" target="_blank" rel="noopener">
+													<button class="button">Live Demo</button>
+												</a>
 											</div>
-										</article>
-										<article>
+										</div>
+									</article>
+									<article>
+										<img class="image" src="images/Simulator Screenshot - iPhone 15 Pro Max - 2024-01-31 at 15.24.35.png" alt="" />
+										<div class="project-1-body inner">
+											<section id="app-description">
+												<h2 id="app-title">The Best/Forget Forgetting ToDo List</h2>
+												<p id="app-platform">A cross-platform app built with React Native</p>
+												<p id="app-summary">This iOS and Android app offers users a streamlined and responsive experience for managing to-do lists and notes. Built using <strong>React Native</strong> and leveraging <strong>AWS Amplify</strong> and <strong>Cognito</strong> for secure user authentication, the app features a fully customized UI with intuitive components designed for ease of use.</p>
+												<h3 id="features-title">Key features include:</h3>
+												<ul id="features-list">
+													<li id="feature-1">Full authentication flow with seamless login and registration processes</li>
+													<li id="feature-2">A theme-responsive interface optimized for different screen sizes</li>
+													<li id="feature-3">A user-friendly utility for creating, managing, and organizing tasks and notes</li>
+												</ul>
+												<p id="app-availability">Available now on both the <strong id="platform-apple">Apple App Store</strong> and <strong id="platform-google">Google Play Store</strong>.</p>
+											</section>
+											<div class="centered">
+												<a class="centered" href="https://github.com/Domniea/rnToDo">
+													<button class="button">View Code</button>
+												</a>
+												<a class="centered" href="https://apps.apple.com/us/app/the-best-todo-list/id6477065703">
+														<img class="downloadButton" src="images/appleAppStore2.svg" alt="" />
+												</a>
+												<a class="centered" href="https://play.google.com/store/apps/details?id=com.thebesttodolist&pcampaignid=web_share">
+														<img class="downloadButton" src="images/googlePlayStore.svg" alt="" />
+												</a>
+											</div>
+										</div>
+									</article>
+									<article>
+										<img class="image" src="images/dominos/Screen-full order.png" alt="" />
+										<div class="project-1-body inner">
+											<section id="app-description">
+												<h2 id="app-title">DomiNode Pizza CLI Tool</h2>
+												<p id="app-platform">A Node based CLI tool have a pizza delivered to the comfort of your Home (wherever  you are)</p>
+												<p id="app-summary">Craving pizza but don’t want the hassle of using the Domino’s app or website? Look no further! 
+													I’ve created a program that lets you order a pizza directly from your command line. Built with Node, Commander, 
+													and Inquirer, this interactive tool makes it easy to get exactly what you want, 
+													whenever you want, delivered right to your door (or wherever you are). Enjoy!</p>
+												<h3 id="features-title">Key features include:</h3>
+												<ul id="features-list">
+													<li id="feature-1">
+														Node.js driven command line interface tool that allows users to order 
+														a pizza directly without use of the Domino’s website or mobile app.
+													</li>
+													<li id="feature-2">
+														Deconstructed Domino’s REST API’s and to allow users to order a pie directly from their CLI.
+													</li>
+													<li id="feature-3">
+														Node libraries “Commander” and “Inquirer” walk the user through prompts to customize their purchase before submitting payment.
+													</li>
+												</ul>
+											</section>
+											<div class="centered">
+												<a class="centered" href="https://github.com/Domniea/dominosCliOrderingTool">
+													<button class="button">View Code / Pull To Use</button>
+												</a>
+											</div>
+										</div>
+									</article>
+									<article>
 									<img class="image" src="images/jobs-r-us.png" alt="" />
-											<!-- <div class="inner">
-												<h4>Job Search Website</h4>
-												<p>
-													Here is an example of a responsive job search application. With a React 
-													driven Front End and Express driven Back End, this application utilizes JSON Web Tokens 
-													to implement strong authentication. 
-													Users can create their own profile and post available jobs along with a price point. 
-													Potential workers will be able to view posted jobs and choose whether to accept. 
-													Once a posted job has been accepted, the job poster will receive a notification 
-													and the option to sign-off upon completion of the job. Signing off on the job will remove 
-													it from the public queue and add the payment amount to the worker's profile. 
-													As "SuperUser" or Management, the user is able to search for users via their email to convert 
-													their profile into a potential worker which will enable them to accept posted jobs.
-												</p>
-												<a href="https://github.com/Domniea/Jobs-R-Us">
+										<div class="project-2-body inner">
+											<section id="job-app-description">
+												<h2 id="job-app-title">Job Search Website</h2>
+												<p id="job-app-summary">Here is an example of a responsive job search application. With a <strong>React</strong> driven Front End and <strong>Express</strong> driven Back End, this application utilizes <strong>JSON Web Tokens</strong> to implement strong authentication.</p>
+												
+												<h3 id="job-features-title">Key features include:</h3>
+												<ul id="job-features-list">
+													<li id="job-feature-1">Users can create their own profile and post available jobs along with a price point.</li>
+													<li id="job-feature-2">Potential workers can view posted jobs and choose whether to accept them.</li>
+													<li id="job-feature-3">Job posters receive notifications when their job is accepted and can sign-off upon job completion.</li>
+													<li id="job-feature-4">Signing off on a job removes it from the public queue and adds the payment amount to the worker's profile.</li>
+													<li id="job-feature-5">"SuperUser" or Management can search for users via email to convert their profile into a potential worker, enabling them to accept posted jobs.</li>
+												</ul>
+											</section>
+											<div class="centered">
+												<a class="centered spaced" href="https://github.com/Domniea/rnToDo">
 													<button class="button">View Code</button>
 												</a>
-												<a href="https://jobs-r-us.netlify.app">
-													<button class="button">View Live</button>
+												<a class="centered spaced" href="https://jobs-r-us.netlify.app">
+													<button class="button">View Code</button>
 												</a>
-											</div> -->
-											<div class="project-2-body inner">
-												<section id="job-app-description">
-													<h2 id="job-app-title">Job Search Website</h2>
-													<p id="job-app-summary">Here is an example of a responsive job search application. With a <strong id="tech-react">React</strong> driven Front End and <strong id="tech-express">Express</strong> driven Back End, this application utilizes <strong id="tech-jwt">JSON Web Tokens</strong> to implement strong authentication.</p>
-													
-													<h3 id="job-features-title">Key features include:</h3>
-													<ul id="job-features-list">
-														<li id="job-feature-1">Users can create their own profile and post available jobs along with a price point.</li>
-														<li id="job-feature-2">Potential workers can view posted jobs and choose whether to accept them.</li>
-														<li id="job-feature-3">Job posters receive notifications when their job is accepted and can sign-off upon job completion.</li>
-														<li id="job-feature-4">Signing off on a job removes it from the public queue and adds the payment amount to the worker's profile.</li>
-														<li id="job-feature-5">"SuperUser" or Management can search for users via email to convert their profile into a potential worker, enabling them to accept posted jobs.</li>
-													</ul>
-												</section>
-												<div class="centered">
-													<a class="centered spaced" href="https://github.com/Domniea/rnToDo">
-														<button class="button">View Code</button>
-													</a>
-													<a class="centered spaced" href="https://jobs-r-us.netlify.app">
-														<button class="button">View Code</button>
-													</a>
-													
-												</div>
 											</div>
-										</article>
-										<article>
-											<img class="image" src="images/RTV.png" alt="" />
-											<!-- <div class="inner">
-												<h4>Discussion Forum</h4>
-												<p>
-													Based on the concept of many forum/chat applications. "Rock The Vote"
-													allows users to create a profile and discuss or debate any given subject.
-													Users are not only allowed to post on the form, but they are able to comment on others posts 
-													and "Up Vote" and "Down Vote". This application utilizes React on the Front End and 
-													Express/MongoDB Atlas as the Back End.
-												</p>
-												<a href="https://github.com/Domniea/RTV">
+										</div>
+									</article>
+									<article>
+										<img class="image" src="images/RTV.png" alt="" />
+										<div class="project-3-body inner">
+											<section id="forum-app-description">
+												<h2 id="forum-app-title">Discussion Forum - Rock The Vote</h2>
+												<p id="forum-app-summary">Based on the concept of many forum/chat applications, "Rock The Vote" allows users to create a profile and discuss or debate any given subject. Users can post on the forum, comment on others' posts, and utilize "Up Vote" or "Down Vote" features.</p>
+												
+												<h3 id="forum-features-title">Key features include:</h3>
+												<ul id="forum-features-list">
+													<li id="forum-feature-1">Users can create profiles and engage in discussions on various topics.</li>
+													<li id="forum-feature-2">Ability to post, comment on posts, and vote (Up Vote/Down Vote) on content.</li>
+													<li id="forum-feature-3">Utilizes <strong>React</strong> for the Front End and <strong>Express</strong> with <strong>MongoDB Atlas</strong> for the Back End.</li>
+												</ul>
+											</section>
+											<div class="centered">
+												<a class="centered spaced" href="https://github.com/Domniea/RTV">
 													<button class="button">View Code</button>
 												</a>
-												<a href="https://rtv-portfolio.netlify.app/">
+												<a class="centered spaced" href="https://rtv-portfolio.netlify.app/">
 													<button class="button">View Live</button>
 												</a>
-											</div> -->
-											<div class="project-3-body inner">
-												<section id="forum-app-description">
-													<h2 id="forum-app-title">Discussion Forum - Rock The Vote</h2>
-													<p id="forum-app-summary">Based on the concept of many forum/chat applications, "Rock The Vote" allows users to create a profile and discuss or debate any given subject. Users can post on the forum, comment on others' posts, and utilize "Up Vote" or "Down Vote" features.</p>
-													
-													<h3 id="forum-features-title">Key features include:</h3>
-													<ul id="forum-features-list">
-														<li id="forum-feature-1">Users can create profiles and engage in discussions on various topics.</li>
-														<li id="forum-feature-2">Ability to post, comment on posts, and vote (Up Vote/Down Vote) on content.</li>
-														<li id="forum-feature-3">Utilizes <strong id="tech-react">React</strong> for the Front End and <strong id="tech-express">Express</strong> with <strong id="tech-mongo">MongoDB Atlas</strong> for the Back End.</li>
-													</ul>
-												</section>
-												<div class="centered">
-													<a class="centered spaced" href="https://github.com/Domniea/RTV">
-														<button class="button">View Code</button>
-													</a>
-													<a class="centered spaced" href="https://rtv-portfolio.netlify.app/">
-														<button class="button">View Live</button>
-													</a>
 
-												</div>
 											</div>
-										</article>
-										<article>
-											<img class="image" src="images/marvelScreeenShot.png" alt="" />
-											<!-- <div class="inner">
-												<h4>Marvel SuperHero and Movie(MCU) Website</h4>
-												<p>A representation of React Front End development. This application demonstrates use of state, 
-													API data retrieval, and data manipulation. Based on the day of the year, two heros are selected
-													and displayed. The user can then see who would win in a fight(based on the characters stats).
-													The user may then browse all Marvel Movies to find a small description, movie poster image, and a link to the movie trailer.
-													Lastley, the user can browse over 270 superheros 
-													grouped by the first letter of their name and see that heros stats.
-												</p>
-												<a href="https://github.com/Domniea/level-4/tree/main/projects/marvel-webpage/">
+										</div>
+									</article>
+									<article>
+										<img class="image" src="images/marvelScreeenShot.png" alt="" />
+										<!-- <div class="inner">
+											<h4>Marvel SuperHero and Movie(MCU) Website</h4>
+											<p>A representation of React Front End development. This application demonstrates use of state, 
+												API data retrieval, and data manipulation. Based on the day of the year, two heros are selected
+												and displayed. The user can then see who would win in a fight(based on the characters stats).
+												The user may then browse all Marvel Movies to find a small description, movie poster image, and a link to the movie trailer.
+												Lastley, the user can browse over 270 superheros 
+												grouped by the first letter of their name and see that heros stats.
+											</p>
+											<a href="https://github.com/Domniea/level-4/tree/main/projects/marvel-webpage/">
+												<button class="button">View Code</button>
+											</a>
+											<a href="https://marvel-heros-project.netlify.app">
+												<button class="button">View Live</button>
+											</a>
+										</div> -->
+										<div class="project-4-body inner">
+											<section id="marvel-app-description">
+												<h2 id="marvel-app-title">Marvel SuperHero and Movie (MCU) Website</h2>
+												<p id="marvel-app-summary">This project is a representation of React Front End development. It demonstrates the use of state management, API data retrieval, and data manipulation.</p>
+												
+												<h3 id="marvel-features-title">Key features include:</h3>
+												<ul id="marvel-features-list">
+													<li id="marvel-feature-1">Two heroes are selected daily based on the day of the year, allowing users to compare and see who would win in a fight (based on character stats).</li>
+													<li id="marvel-feature-2">Users can browse all Marvel movies, find descriptions, view movie poster images, and access links to movie trailers.</li>
+													<li id="marvel-feature-3">Over 270 superheroes are available for browsing, grouped by the first letter of their name, with detailed stats for each hero.</li>
+												</ul>
+												<!-- <h4 id="marvel-tech-title">Technology used:</h4> -->
+												<!-- <ul id="marvel-tech-list">
+													<li id="react">React for Front End development</li>
+													<li id="api">API data retrieval for superhero stats and movie details.</li>
+													<li id="state-management">State management for dynamic data handling.</li>
+												</ul> -->
+											</section>
+											<div class="centered">
+												<a class="centered spaced" href="https://github.com/Domniea/level-4/tree/main/projects/marvel-webpage">
 													<button class="button">View Code</button>
 												</a>
-												<a href="https://marvel-heros-project.netlify.app">
+												<a class="centered spaced" href="https://marvel-heros-project.netlify.app">
 													<button class="button">View Live</button>
 												</a>
-											</div> -->
-											<div class="project-4-body inner">
-												<section id="marvel-app-description">
-													<h2 id="marvel-app-title">Marvel SuperHero and Movie (MCU) Website</h2>
-													<p id="marvel-app-summary">This project is a representation of React Front End development. It demonstrates the use of state management, API data retrieval, and data manipulation.</p>
-													
-													<h3 id="marvel-features-title">Key features include:</h3>
-													<ul id="marvel-features-list">
-														<li id="marvel-feature-1">Two heroes are selected daily based on the day of the year, allowing users to compare and see who would win in a fight (based on character stats).</li>
-														<li id="marvel-feature-2">Users can browse all Marvel movies, find descriptions, view movie poster images, and access links to movie trailers.</li>
-														<li id="marvel-feature-3">Over 270 superheroes are available for browsing, grouped by the first letter of their name, with detailed stats for each hero.</li>
-													</ul>
-											
-													<h4 id="marvel-tech-title">Technology used:</h4>
-													<ul id="marvel-tech-list">
-														<li id="tech-react">React for Front End development</li>
-														<li id="tech-api">API data retrieval for superhero stats and movie details.</li>
-														<li id="tech-state-management">State management for dynamic data handling.</li>
-													</ul>
-												</section>
-												<div class="centered">
-													<a class="centered spaced" href="https://github.com/Domniea/level-4/tree/main/projects/marvel-webpage">
-														<button class="button">View Code</button>
-													</a>
-													<a class="centered spaced" href="https://marvel-heros-project.netlify.app">
-														<button class="button">View Live</button>
-													</a>
 
-												</div>
 											</div>
-										</article>
+										</div>
+									</article>
 										<!-- <article>
 											<img class="image" src="images/happyHydrantScreenShot.png" alt="" />
 											<div class="inner">
